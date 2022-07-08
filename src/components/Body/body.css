@@ -1,0 +1,277 @@
+.testimonialDiv{
+    box-shadow: 0px 0px 8px 0px gray;
+    padding:1rem;
+    margin-top: 4rem;
+}
+.firstDiv{
+    display:flex; 
+    justify-content: center;
+}
+.firstDiv img{
+    max-width: 40%;
+    height:40%
+}
+.firstDivChild {
+    width:50%;
+}
+.firstDivChild p{
+    font-size:1.3rem; 
+    font-weight:bolder; 
+    opacity:0.77;
+    margin-top:0;
+}
+.firstDivChild h1{
+    font-size:2.5rem;
+    margin-bottom:1rem
+}
+.firstDivInput{
+    display:flex; 
+    justify-content:space-between
+}
+.firstDivInput input{
+    padding:1rem;
+    width:50%;
+    margin-bottom:1rem;
+    border-radius:4px
+}
+.firstDivInput button{
+    background-color:royalblue; 
+    color: white;
+    width:30%;
+    padding-left:1rem;
+    height:50px; 
+    border-radius:4px; 
+    border-color:'transparent'
+}
+.secondDiv{
+    margin-top: 200px;
+}
+.desktopCurve, .mobileCurve{
+    width:100%;
+    margin-top: 0;
+}
+.mobileCurve{display: none;}
+.secondDiv .innerSeconDiv{
+    background-color:#F8F8FE;
+    display:flex;
+    margin-top:-.5rem;
+    padding:4rem; 
+    padding-bottom:6rem 
+}
+.innerSeconDiv .img2{
+    width:40%;
+    height:40%;
+    margin-top:4rem
+
+}
+.innerInner{
+    margin-right: 0.2rem;
+}
+.innerInner h1{
+    font-size:2.8rem;
+    margin-bottom:1rem 
+}
+.secondDivText{
+    width:80%;
+    font-size:1.2rem; 
+    font-weight:bolder; 
+    opacity:0.77;
+    margin-top:0
+}
+.secondDivText1{
+    font-size:1.3rem; 
+    font-weight:bolder; 
+    opacity:0.77;
+    margin-top:0 ;
+    color:#3DA08F;
+    text-decoration-line:underline
+}
+.lastDiv{
+    display:flex; 
+    background-color:midnightblue;
+    justify-content:space-between;
+    padding:4rem;
+    color:white;
+    opacity:0.7
+}
+.innerLastDiv{
+    width:40%;
+    margin-right:2rem
+}
+.innerLastDiv h1{
+    font-size:2.5rem;
+    margin-bottom:1rem
+}
+.innerLastDiv p{
+    font-size:1rem;
+    opacity:0.77;
+    margin-top:0
+}
+.lastDivInput{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    margin-top:3rem
+}
+.lastDivInput input{
+    padding:1rem;
+    width:80%;
+    margin-bottom:1rem;
+    border-radius:4px;
+    border-color:transparent
+}
+.lastDivInput button{
+    background-color:royalblue;
+    color: white;
+    width:40%;
+    padding:1rem;
+    border-radius:4px;
+    border-color:transparent
+}
+@media (max-width:767px) {
+    .firstDivChild h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .firstDivInput{
+        align-items: center;
+        justify-content: center;
+    }
+    .firstDivInput input{
+        padding:1rem;
+        width:90%;
+        margin-bottom:1rem;
+        border-radius:4px
+    }
+    .firstDivInput button{
+        background-color:royalblue; 
+        color: white;
+        width:100%;
+        text-align: center;
+        padding-left:1rem;
+        height:50px; 
+        border-radius:4px; 
+        border-color:'transparent'
+    }
+    .firstDivInput{
+        flex-direction: column;
+    }
+    .firstDivChild p{
+        text-align:center;
+        font-size:0.9rem; 
+        opacity:0.77;
+        margin-top:0;
+        margin-left: 0;
+    }
+    .firstDivChild{
+        width:100%;
+    }
+    .firstDiv img{
+        width: 100%;
+        height:100%
+    }
+    .firstDiv{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin :2rem;
+    }
+    .mobileCurve{display: block;}
+    .desktopCurve{
+        display: none;
+    }
+    .secondDiv .innerSeconDiv{
+        background-color:#F8F8FE;
+        display:flex;
+        margin-top:-.5rem;
+        padding:2rem; 
+        padding-bottom:6rem 
+    }
+    .innerSeconDiv{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .innerInner h1{
+        text-align: center;
+        font-size:1.2rem;
+        margin-bottom:1rem ;
+        font-weight:bolder
+    }
+    .secondDivText{
+        width:100%;
+        font-size:1rem; 
+        font-weight:bolder; 
+        opacity:0.6;
+        margin-top:0
+    }
+    
+    .secondDivText1{
+        text-align: center;
+        font-size:1rem; 
+        font-weight:bolder; 
+        opacity:0.77;
+        margin-top:2rem ;
+        color:#3DA08F;
+        text-decoration-line:underline
+    }
+    .innerSeconDiv .img2{
+        width:100%;
+        height:100%;
+        margin-top:4rem
+    
+    }
+    .lastDiv{
+        display:flex; 
+        background-color:midnightblue;
+        justify-content:space-between;
+        padding:2rem;
+        color:white;
+        opacity:0.7;
+        flex-direction: column;
+    }
+    .innerLastDiv{
+        width:100%;
+        margin-right:auto
+    }
+    .innerLastDiv h1{
+        text-align: center;
+        font-size:1.5rem;
+        margin-bottom:1rem;
+        margin-top:3rem
+    }
+    .innerLastDiv p{
+        text-align: center;
+        font-size:1rem;
+        opacity:0.77;
+        margin-top:0
+    }
+    .lastDivInput{
+        display:flex;
+        flex-direction:column;
+        width:90%;
+        margin: auto;
+        margin-top:3rem;
+        margin-bottom:3rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .lastDivInput input{
+        padding:1rem;
+        width:90%;
+        margin-bottom:1rem;
+        border-radius:4px;
+        border-color:transparent
+    }
+    .lastDivInput button:hover,.lastDivInput button:focus.firstDivInput button:hover,.firstDivInput button:focus{
+        background-color: rgba(41, 74, 134, 0.747);    
+    }
+    .lastDivInput button{
+        background-color:rgb(12, 71, 248);
+        opacity: 1;
+        color: white;
+        width:100%;
+        padding:1rem;
+        border-radius:4px;
+        border-color:transparent
+    }
+}

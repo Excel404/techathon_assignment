@@ -1,0 +1,48 @@
+.logo{
+    width:20%;
+    height:20%;
+}
+.links{
+    list-style-type:none;
+    display:flex;
+    position: absolute;
+    right: 2rem;
+    margin-right:0
+}
+.link1{
+    margin-right: 1.5rem
+}
+.bars{
+    display:none;
+}
+.dropDown{
+    display: none;
+}
+@media (min-width:768px) {
+    .dropDown{
+        display:none
+    }
+}
+@media (max-width:767px) {
+    .links{
+        display:none;
+    }
+    .bars{
+        display:block;
+        z-index: 0;
+    }
+    .dropDown{
+        display:flex;
+        flex-direction: column;
+        width:max-content;
+        background-color:rgb(130, 155, 236);
+        padding: 1rem;
+        border-radius: 4px;
+        height:max-content;
+        position: absolute;
+        float: right;
+        top: 5rem;
+        right:2rem;
+        z-index: 0;
+    }
+}

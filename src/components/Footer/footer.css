@@ -1,0 +1,22 @@
+.footerDiv{
+    height:250px;
+    background-color:midnightblue; 
+    color: white; 
+    padding:4rem;
+}
+@media (max-width :767px) {
+    .footerDiv{
+        height:40rem;
+    }
+    .listDiv div{
+        margin:auto;
+    }
+    .listDiv ul{
+        margin-left: -1.5rem;
+        margin-top: 3rem;
+    }
+
+    .listDiv{
+        flex-direction: column;
+    }
+}
